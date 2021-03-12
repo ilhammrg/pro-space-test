@@ -1,0 +1,44 @@
+.container {
+  border: 2px solid #ddd;
+  border-radius: 7.5px;
+  margin: 1rem;
+}
+
+.container:hover {
+  box-shadow: 1px 1px 30px rgba(0,0,0,0.1);
+}
+
+.cardHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+  margin: 10px 15px;
+}
+
+.title {
+  margin: 5px
+}
+
+.cardBody {
+  padding: 0 1rem 1rem 1rem;
+}
+
+.cardBody:hover {
+  cursor: pointer;
+}
+
+.cardBodyItem {
+  margin-bottom: 15px;
+}
+
+.cardItemLabel {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.cardItemText {
+  margin: 0;
+  color: #666;
+}

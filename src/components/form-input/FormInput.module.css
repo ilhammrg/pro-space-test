@@ -1,0 +1,22 @@
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.label {
+  font-weight: 600;
+  margin-bottom: 3px;
+}
+
+.input {
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 7.5px;
+  font-size: 1rem;
+}
+
+.input::placeholder {
+  color: #aaa;
+  font-size: 1rem;
+}

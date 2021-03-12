@@ -1,0 +1,18 @@
+.container {
+  padding: 1rem;
+}
+
+.list {
+  list-style: none;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-inline-start: 0;
+}
+
+@media screen and (min-width: 1024px) {
+  .list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}

@@ -1,0 +1,37 @@
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.label {
+  font-weight: 600;
+  margin-bottom: 3px;
+}
+
+.containerInput {
+  display: flex;
+  flex-direction: row;
+}
+
+.inputCode {
+  width: 30%;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 7.5px;
+  font-size: 1rem;
+  margin-right: 10px;
+}
+
+.inputNumber {
+  width: 70%;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 7.5px;
+  font-size: 1rem;
+}
+
+.inputCode::placeholder, .inputNumber::placeholder {
+  color: #aaa;
+  font-size: 1rem;
+}

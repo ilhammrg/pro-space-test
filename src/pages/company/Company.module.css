@@ -1,0 +1,39 @@
+.container {
+  width: 100%;
+  padding: 10px;
+}
+
+.companyContainer {
+  border-bottom: 2px solid #ddd;
+  padding: 1rem;
+}
+
+.companyHeader {
+  border-bottom: 2px solid #ddd;
+}
+
+.companyBody {
+
+}
+
+.companyItemTitle {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.companyItemText {
+  margin-top: 5px;
+}
+
+.buttonBackContainer {
+  
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    width: 1024px;
+    min-height: 100vh;
+    /* border: 1px solid #eee; */
+    margin: 0 auto;
+  }
+}

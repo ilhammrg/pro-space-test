@@ -1,0 +1,7 @@
+const officesTypes = {
+  ADD_OFFICES: "ADD_OFFICES",
+  DELETE_OFFICES: "DELETE_OFFICES",
+  GET_CURRENT_COMPANY_OFFICES: "GET_CURRENT_COMPANY_OFFICES",
+}
+
+export default officesTypes;
